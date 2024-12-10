@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Вся шапка страницы */
+header {
+    font-size: 20px;
+    display: flex;
+    background: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #000;
+}
+
+/* Лого */
+h1 {
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    display: inline-flex;
+    width: fit-content;
+}
+
+nav ul li a {
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #000;
+    color: aliceblue;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    padding: 10px;
+}
